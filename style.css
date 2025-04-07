@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2012/04/26/22/48/machu-picchu-43387_1280.jpg");
+  background-size: cover; */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.pergunta {
+  color: #000000;
+  text-align: center;
+  font-family: cursive;
+  align-items: center;
+  margin-top:20px;
+  
+}
+
+.respostas {
+  display: flex; /* Transforma a div 'respostas' em um container flexível */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  flex-direction: column; /* Opcional: se você quiser que os botões fiquem um abaixo do outro */
+  align-items: center; /* Opcional: centraliza os itens verticalmente dentro da div 'respostas' */
+  font-size: 18px;
+}
+
+.respostas button { /* Estiliza os botões (opcional) */
+  margin-bottom: 10px; /* Adiciona um espaço entre os botões (se estiverem em coluna) */
+  /* Outros estilos para os botões, se necessário */
+  width: 50%;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.footer {
+  font-size: 18px;
+  margin-left: 40px;
+  font-family: cursive;
+}
+
